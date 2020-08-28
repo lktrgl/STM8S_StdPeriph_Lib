@@ -1331,7 +1331,7 @@ ITStatus CAN_GetITStatus(CAN_IT_TypeDef CAN_IT)
 }
 
 /**
-  * @brief   Clears the CAN’s interrupt pending bits.
+  * @brief   Clears the CAN\92s interrupt pending bits.
   * @param   CAN_IT: specifies the interrupt pending bit to clear,
   *  can be one of the following parameters:
   *                            CAN_IT_TME = Transmit mailbox empty interrupt

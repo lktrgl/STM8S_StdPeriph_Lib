@@ -373,7 +373,7 @@ void TIM3_UpdateRequestConfig(TIM3_UpdateSource_TypeDef TIM3_UpdateSource)
 }
 
 /**
-  * @brief  Selects the TIM3’s One Pulse Mode.
+  * @brief  Selects the TIM3\92s One Pulse Mode.
   * @param   TIM3_OPMode specifies the OPM Mode to be used.
   * This parameter can be one of the following values
   *                    - TIM3_OPMODE_SINGLE
@@ -881,7 +881,7 @@ FlagStatus TIM3_GetFlagStatus(TIM3_FLAG_TypeDef TIM3_FLAG)
 }
 
 /**
-  * @brief  Clears the TIM3’s pending flags.
+  * @brief  Clears the TIM3\92s pending flags.
   * @param   TIM3_FLAG specifies the flag to clear.
   * This parameter can be one of the following values:
   *                       - TIM3_FLAG_UPDATE: TIM3 update Flag
@@ -896,7 +896,7 @@ void TIM3_ClearFlag(TIM3_FLAG_TypeDef TIM3_FLAG)
   /* Check the parameters */
   assert_param(IS_TIM3_CLEAR_FLAG_OK(TIM3_FLAG));
   
-  /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+  /* Clear the flags (rc_w0) clear this bit by writing 0. Writing \911\92 has no effect*/
   TIM3->SR1 = (uint8_t)(~((uint8_t)(TIM3_FLAG)));
   TIM3->SR2 = (uint8_t)(~((uint8_t)((uint16_t)TIM3_FLAG >> 8)));
 }

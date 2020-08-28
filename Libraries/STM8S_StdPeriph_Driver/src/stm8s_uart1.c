@@ -257,7 +257,7 @@ void UART1_ITConfig(UART1_IT_TypeDef UART1_IT, FunctionalState NewState)
 }
 
 /**
-  * @brief  Enables or disables the UART’s Half Duplex communication.
+  * @brief  Enables or disables the UART\92s Half Duplex communication.
   * @param  NewState new state of the UART Communication.
   *         This parameter can be: ENABLE or DISABLE.
   * @retval None
@@ -277,7 +277,7 @@ void UART1_HalfDuplexCmd(FunctionalState NewState)
 }
 
 /**
-  * @brief  Configures the UART’s IrDA interface.
+  * @brief  Configures the UART\92s IrDA interface.
   * @param  UART1_IrDAMode specifies the IrDA mode.
   *         This parameter can be any of the @ref UART1_IrDAMode_TypeDef values.
   * @retval None
@@ -297,7 +297,7 @@ void UART1_IrDAConfig(UART1_IrDAMode_TypeDef UART1_IrDAMode)
 }
 
 /**
-  * @brief  Enables or disables the UART’s IrDA interface.
+  * @brief  Enables or disables the UART\92s IrDA interface.
   * @param  NewState new state of the IrDA mode.
   *         This parameter can be: ENABLE or DISABLE.
   * @retval None
@@ -341,7 +341,7 @@ void UART1_LINBreakDetectionConfig(UART1_LINBreakDetectionLength_TypeDef UART1_L
 }
 
 /**
-  * @brief  Enables or disables the UART1’s LIN mode.
+  * @brief  Enables or disables the UART1\92s LIN mode.
   * @param  NewState is new state of the UART1 LIN mode.
   *         This parameter can be: ENABLE or DISABLE.
   * @retval None

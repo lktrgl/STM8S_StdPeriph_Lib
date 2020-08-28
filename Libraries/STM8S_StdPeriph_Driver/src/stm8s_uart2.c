@@ -264,7 +264,7 @@ void UART2_ITConfig(UART2_IT_TypeDef UART2_IT, FunctionalState NewState)
 }
 
 /**
-  * @brief  Configures the UART2’s IrDA interface.
+  * @brief  Configures the UART2\92s IrDA interface.
   * @param  UART2_IrDAMode specifies the IrDA mode.
   *         This parameter can be any of the @ref UART2_IrDAMode_TypeDef values.
   * @retval None
@@ -284,7 +284,7 @@ void UART2_IrDAConfig(UART2_IrDAMode_TypeDef UART2_IrDAMode)
 }
 
 /**
-  * @brief  Enables or disables the UART2’s IrDA interface.
+  * @brief  Enables or disables the UART2\92s IrDA interface.
   * @param  NewState new state of the IrDA mode.
   *         This parameter can be: ENABLE or DISABLE.
   * @retval None

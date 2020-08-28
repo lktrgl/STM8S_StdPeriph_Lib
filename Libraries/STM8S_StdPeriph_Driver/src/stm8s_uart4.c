@@ -264,7 +264,7 @@ void UART4_ITConfig(UART4_IT_TypeDef UART4_IT, FunctionalState NewState)
 }
 
 /**
-  * @brief  Enables or disables the UART’s Half Duplex communication.
+  * @brief  Enables or disables the UART\92s Half Duplex communication.
   * @param  NewState new state of the UART Communication.
   *         This parameter can be: ENABLE or DISABLE.
   * @retval None
@@ -284,7 +284,7 @@ void UART4_HalfDuplexCmd(FunctionalState NewState)
 }
 
 /**
-  * @brief  Configures the UART4’s IrDA interface.
+  * @brief  Configures the UART4\92s IrDA interface.
   * @param  UART4_IrDAMode specifies the IrDA mode.
   *         This parameter can be any of the @ref UART4_IrDAMode_TypeDef values.
   * @retval None
@@ -304,7 +304,7 @@ void UART4_IrDAConfig(UART4_IrDAMode_TypeDef UART4_IrDAMode)
 }
 
 /**
-  * @brief  Enables or disables the UART4’s IrDA interface.
+  * @brief  Enables or disables the UART4\92s IrDA interface.
   * @param  NewState new state of the IrDA mode.
   *         This parameter can be: ENABLE or DISABLE.
   * @retval None
