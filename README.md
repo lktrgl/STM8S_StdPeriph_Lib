@@ -10,6 +10,10 @@ How to start:
 
 ```
 git clone  --recurse-submodules --verbose --remote --progress https://github.com/lktrgl/STM8S_StdPeriph_Lib.git \
-  && cd STM8S_StdPeriph_Lib
+  && cd STM8S_StdPeriph_Lib/Project/STM8S_StdPeriph_Template/SDCC_CMAKE \
+  && mkdir build \
+  && cd build \
+  && cmake -DCMAKE_TOOLCHAIN_FILE=../Toolchain-sdcc.cmake .. \
+  && make all
 ```
 
